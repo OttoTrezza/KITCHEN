@@ -1,0 +1,94 @@
+.history {
+    display: flex;
+    flex-direction: column;
+    max-height: 30px;
+    width: auto;
+}
+.columnass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: auto;
+}
+
+.column:first {
+    margin-left: -25px;
+    padding-right: 25px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: auto;
+    align-content: flex-start;
+}
+
+
+
+.prev {
+    border: 1px solid;
+    /* opacity: 10%; */
+    color: black;
+    /* margin-right: -16px; */
+    /* border: 0px; */
+    width: 30px;
+    height: 20px;
+    background-color: rgb(109, 120, 126);
+    transform: rotateY(4deg);
+    z-index: 1;
+    /* border: 1px solid; */
+}
+
+.prev:hover {
+    opacity: 83%;
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in;
+    transform: perspective(400px) rotateY(45deg);
+}
+
+.hist-name {
+    font-size: 15px;
+    color: burlywood;
+    /* margin-top: 1px; */
+    /* margin-bottom: 0px; */
+    /* height: 18px; */
+    /* background-color: none; */
+    /* display: -webkit-inline-box; */
+    /* z-index: 5; */
+}
+
+.hist-name:hover {
+    transition-duration: 1.8s;
+    transition-timing-function: ease-in;
+    transform: perspective(100px) rotateY(83deg);
+    /* transform: perspective(400px) scaleX(1.2); */
+}
+
+.next {
+    /* opacity: 10%; */
+    /* margin-left: -29px; */
+    color: black;
+    /* border: 0px; */
+    width: 30px;
+    height: 20px;
+    background-color: rgb(109, 120, 126);
+    transform: rotateY(4deg);
+    z-index: 1;
+    /* border: 1px solid; */
+}
+
+.next:hover {
+    color: black;
+    cursor: pointer;
+    opacity: 83%;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in;
+    transform: perspective(400px) rotateY(45deg);
+}
